@@ -1,5 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+@media screen and (max-width: 768px) {
+    
+}
+
 .salsa-regular {
     font-family: "Salsa", serif !important;
     font-weight: 900;
@@ -11,10 +15,6 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-}
-
-html {
-    
 }
 
 /*
@@ -56,10 +56,6 @@ h4 a {
 h1, h2, h3, h4 {
     display: inline-block;
     text-wrap: wrap;
-}
-
-nav {
-    
 }
 
 .nav-link, .deco-list-item a {
