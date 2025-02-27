@@ -58,6 +58,12 @@ h1, h2, h3, h4 {
     text-wrap: wrap;
 }
 
+.navbar {
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+}
+
 .nav-link, .deco-list-item a {
     color: #53A465;
     text-decoration: none;
