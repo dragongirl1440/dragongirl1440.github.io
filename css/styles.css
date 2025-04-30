@@ -73,13 +73,18 @@ h1, h2, h3, h4 {
     overflow: hidden;
 }
 
+.navbar-nav .nav-item {
+    margin: 0;
+}
+
 .nav-link, .deco-list-item a {
     color: #53A465;
     text-decoration: none;
 }
 
 .nav-link .active, .nav-link:hover, .deco-list-item .active, .deco-list-item:hover, h4 a .active, h4 a:hover{
-    color: #2c5c37 !important;
+    color: #2c5c37;
+    height: 100%;
 }
 
 .citrus {
