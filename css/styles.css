@@ -74,8 +74,13 @@ nav {
     overflow: hidden; */
 }
 
-.navbar-nav {
+/* .navbar-nav {
     padding: 0;
+} */
+
+.navbar-nav li .active {
+    color: white !important;
+    margin: 0;
 }
 
 .nav-link, .deco-list-item a {
@@ -101,7 +106,6 @@ nav {
     padding: 2em;
     height: 40%;
     max-height: 170px;
-    max-width: 300px;
 }
 
 .speechbox, .list-skills {
