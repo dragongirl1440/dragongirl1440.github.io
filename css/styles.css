@@ -85,7 +85,8 @@ h1, h2, h3, h4 {
 .citrus {
     min-width: 75px;
     min-height: 75px;
-    aspect-ratio: 1 / 1;
+    height: 50% !important;
+    aspect-ratio: 1 / 1 !important;
 }
 
 .speechbox {
@@ -97,6 +98,12 @@ h1, h2, h3, h4 {
     background-color: white;
     border-radius: 1em 1em 1em 0;
     box-shadow: 0 .7em .7em 0 rgba(237, 83, 111, 0.39);
+    height: 50% !important;
+}
+
+.glyph {
+    width: 30px;
+    height: 30px;
 }
 
 article {
