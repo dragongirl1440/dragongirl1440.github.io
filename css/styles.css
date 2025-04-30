@@ -45,10 +45,6 @@ body {
     max-width: 7em;
 }
 
-/* .deco-list-item {
-    border-bottom: 1px lightgray;
-} */
-
 .deco-text {
     font-size: 11pt;
 }
@@ -67,14 +63,19 @@ h1, h2, h3, h4 {
     text-wrap: wrap;
 }
 
-.navbar {
-    top: 0;
+nav {
     position: sticky;
     overflow: hidden;
 }
 
-.navbar-nav .nav-item {
-    margin: 0;
+.navbar {
+    top: 0;
+    /* position: sticky;
+    overflow: hidden; */
+}
+
+.navbar-nav {
+    padding: 0;
 }
 
 .nav-link, .deco-list-item a {
@@ -83,20 +84,24 @@ h1, h2, h3, h4 {
 }
 
 .nav-link .active, .nav-link:hover, .deco-list-item .active, .deco-list-item:hover, h4 a .active, h4 a:hover{
-    color: #2c5c37;
+    color: #2c5c37 !important;
     height: 100%;
 }
 
 .citrus {
     min-width: 75px;
+    max-width: 200px;
     min-height: 75px;
+    max-width: 200px;
     height: 50% !important;
     aspect-ratio: 1 / 1 !important;
 }
 
 .speechbox {
-    padding: 2em 2em 2.5em 2em;
-    height: 50%;
+    padding: 2em;
+    height: 40%;
+    max-height: 170px;
+    max-width: 300px;
 }
 
 .speechbox, .list-skills {

@@ -54,7 +54,7 @@ function homepageTalk(randomSeed) {
             break;
 
         case 10:
-            citrusTalk = "\"Whether you're looking for a new website or lookin to update your own, welcome to Sweet Citrus Designs!\"";
+            citrusTalk = "\"Whether you're looking for a new website or looking to update your own, welcome to Sweet Citrus Designs!\"";
             break;
 
         default:
